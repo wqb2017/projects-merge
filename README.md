@@ -8,8 +8,5 @@
 
 ## precondition
 
-1. install git and nodejs
-
 [install: git](https://git-scm.com/downloads)
-
 [install: nodejs](http://nodejs.cn/download/)
