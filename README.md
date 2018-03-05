@@ -8,5 +8,5 @@
 
 ## precondition
 
-[install: git](https://git-scm.com/downloads)
+[install: git](https://git-scm.com/downloads)  
 [install: nodejs](http://nodejs.cn/download/)
