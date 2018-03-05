@@ -34,10 +34,10 @@ cd project root
 ## 使用 ecaray-cli 架手架建模板
 
 1. 全局安装 ecaray-cli
+   [ecaray-cli 传送门](https://github.com/wqb2017/ecaray-cli)
 
 ```js
 $ npm install ecaray-cli -g  
-[ecaray-cli 传送门](https://github.com/wqb2017/ecaray-cli)
 ```
 
 2. 新增本地 projects-merge 模板
