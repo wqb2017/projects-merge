@@ -33,9 +33,12 @@ cd project root
 
 ## 使用 ecaray-cli 架手架建模板
 
-1. 安装
-   $ npm install ecaray-cli -g [ecaray-cli 传送门](https://github.com/wqb2017/ecaray-cli)
-   $ ecaray init
-   $ Template name: projects-merge(初始化自定义模板)
-   $ Project name: qianqianjinfu(创建项目名称 qianqianjinfu)
-   $ Where to init the project: ./ (创建项目存储地址,直接回车默认当前文件跟目录)
+$ npm install ecaray-cli -g [ecaray-cli 传送门](https://github.com/wqb2017/ecaray-cli)
+
+$ ecaray init
+
+$ Template name: projects-merge(初始化自定义模板)
+
+$ Project name: qianqianjinfu(创建项目名称 qianqianjinfu)
+
+$ Where to init the project: ./ (创建项目存储地址,直接回车默认当前文件跟目录)
