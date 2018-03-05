@@ -10,6 +10,6 @@
 
 1. install git and nodejs
 
-   [git](https://git-scm.com/downloads)
+[install: git](https://git-scm.com/downloads)
 
-   [nodejs](http://nodejs.cn/download/)
+[install: nodejs](http://nodejs.cn/download/)
