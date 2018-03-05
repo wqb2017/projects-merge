@@ -33,7 +33,8 @@ cd project root
 
 ## 使用 ecaray-cli 架手架建模板
 
-$ npm install ecaray-cli -g [ecaray-cli 传送门](https://github.com/wqb2017/ecaray-cli)
+$ npm install ecaray-cli -g  
+[ecaray-cli 传送门](https://github.com/wqb2017/ecaray-cli)
 
 $ ecaray init
 
