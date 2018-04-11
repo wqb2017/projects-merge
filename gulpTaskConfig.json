@@ -1,0 +1,10 @@
+[
+  {
+    "taskname": "test",
+    "standard": "./dev/standard/yunying",
+    "different": "./dev/shenzhen/yunying",
+    "target": "./dist/shenzhen/yunying",
+    "note": "任务说明",
+    "port": ""
+  }
+]

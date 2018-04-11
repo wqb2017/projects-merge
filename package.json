@@ -1,0 +1,24 @@
+{
+  "name": "parojects-merge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {},
+  "author": "wangqibiao",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.42",
+    "@babel/preset-env": "^7.0.0-beta.42",
+    "@types/gulp-babel": "^6.1.29",
+    "@types/jquery": "^3.3.1",
+    "@types/node": "^9.4.7",
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0-beta.2"
+  },
+  "dependencies": {}
+}
