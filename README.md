@@ -1,22 +1,8 @@
 # projects-merge
 
-## precondition
+## 目录结构
 
-[install: git](https://git-scm.com/downloads)
-
-[install: nodejs](http://nodejs.cn/download/)
-
-## Installation
-
-cd project root
-
-1. $ git clone https://github.com/wqb2017/projects-merge.git
-2. $ npm install.
-3. $ npm run shenzhen-yunying
-
-## structure
-
-```js
+```html
 |- project-root 项目跟目录
       |-gulpfile.js 配置文件
       |-package.json 依赖文件
@@ -31,30 +17,38 @@ cd project root
       |-dist 生产环境
 ```
 
-## 使用 ecaray-cli 架手架建模板
+## 实现功能
 
-1. 全局安装 ecaray-cli
-   [ecaray-cli 传送门](https://github.com/wqb2017/ecaray-cli)
+1. 差异化项目合并
+1. babel 编译 js
+1. 自动刷新浏览器
 
-```js
-$ npm install ecaray-cli -g  
+## 前置条件
+
+* 依赖安装
+
+```bash
+# 安装 gulp-cli，为了使用gulp命令
+$ npm install gulp-cli -g
+
+# 进入当前目录安装开发所需依赖
+$ npm install
 ```
 
-2. 新增本地 projects-merge 模板
+## 测试
 
-```js
-## ecaray add
+* 已提供配置好测试任务，安装依赖完成后直接在命令行输入`gulp test`，
 
-1. Set the custom name of the template: projects-merge(自定义模板)
-2. Owner/name of the template: wqb2017/projects-marge(github 模板)
-3. Branch of the template: master(选中的分支)
-```
+## 配置文件
 
-3. 初始化模板
+* gulpTaskConfig
 
-```js
-## ecaray init
-1. Template name: projects-merge(初始化自定义模板)
-2. Project name: qianqianjinfu(创建项目名称)
-3. Where to init the project: ./ (创建项目存储地址)
-```
+  | key       | value   | 是否必填 | 说明                                                        |
+  | --------- | ------- | -------- | ----------------------------------------------------------- |
+  | taskname  | string  | 是       | 任务名，用于在命令行输入，例如： gulp test                  |
+  | standard  | string  | 是       | 指定标准版位置                                              |
+  | different | string  | 是       | 指定差异化版本路径                                          |
+  | target    | string  | 是       | 指定打包生产目录路径                                        |
+  | port      | string  | 否       | 指定端口位置，用于同时启动多个任务时需要配置                |
+  | note      | string  | 否       | 任务说明                                                    |
+  | needBabel | boolean | 否       | 是否需要 babel 编译，默认不开启，老项目某些代码不能通过编译 |
